@@ -5,3 +5,6 @@ langserve
 python-dotenv
 # langchain_google.genai
 langchain-google-genai
+fastapi
+uvicorn
+sse_starlette
