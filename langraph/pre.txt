@@ -1,0 +1,13 @@
+About LangGraph
+agent works on the thought ->action->observe thiings if you send a prompt then llmm thniks tbout the prompt then it asks for toolas if it can do anything about that after the resposnse from the tool 
+comes then we go to lllm again for obseravtion thenafter the obseravtion comes thenanswer is genearated again
+
+tool -> cba be annythig that is api  rag or any other sort o fweb  scrapping or any otther database
+
+langraph is the frame work whc=ich  provide us the way to make the agents
+
+prompt->llm-> o/p->stroutput parseer
+
+agent works in the loop
+
+question->think->tool->observe->fianloutput
