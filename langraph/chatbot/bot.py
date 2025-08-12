@@ -20,7 +20,7 @@ class chatbot:
         self.checkpoint = MemorySaver()
 
     def call_tool(self):
-        tool = TavilySearchResults(max_results=2)
+        tool = TavilySearchResults(max_results=5)
         tools = [tool]
         self.tool_node = ToolNode(tools=[tool])
         self.llm_with_tool=self.llm.bind_tools(tools)
